@@ -1,5 +1,6 @@
 # ImageHost
 ShareX Image Host Made In Flask
+
 ## Installation
 
 Install ImageHost with git
@@ -7,10 +8,11 @@ Install ImageHost with git
 ```bash
   git clone https://github.com/Sorted1/ImageHost.git
   cd ImageHost
-  pip3 install flask
+  pip3 install requirements.txt
   SET API Keys In app.py
   python3 app.py
 ```
+
 
 ## Usage/Examples
 
