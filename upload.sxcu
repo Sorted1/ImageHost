@@ -1,0 +1,14 @@
+﻿{
+  "Version": "13.5.0",
+  "Name": "https://SERVERIP/upload",
+  "DestinationType": "ImageUploader, TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pics.sorted.live/upload",
+  "Headers": {
+    "title": "Sorted Image Uploader",
+    "apikey": "APIKEYY",
+    "hexcolor": "#A78BFA"
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "file"
+}
