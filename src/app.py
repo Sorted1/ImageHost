@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['DATABASE'] = 'images.db'
-apikeys = [913219372139493298439478932, 123, 456]
+apikeys = ['913219372139493298439478932']
 def create_table():
     with sqlite3.connect(app.config['DATABASE']) as conn:
         cursor = conn.cursor()
